@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>DC MANUEL'S</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="vendors/Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="vendors/Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="vendors/Icon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css" >
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="resources/img/logo/vector/default-monochrome-white.svg" alt="Logo"></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" onclick="HideMenu()" ></i>
+          <ul>
+            <li><a href="https://twitter.com/dev_manuels">HOME</a> </li>
+            <li><a href="https://twitter.com/dev_manuels">ABOUT-US</a> </li>
+            <li><a href="https://twitter.com/dev_manuels">CITIES</a> </li>
+            <li><a href="https://twitter.com/dev_manuels">CONTACT</a> </li>
+            <li><a href="https://twitter.com/dev_manuels">MENU</a> </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <h1>HEY, HAVE A LOOK AT OUR<a href="https://twitter.com/dev_manuels"> REVIEWS</a></h1>
+        <p>An oasis of pleasure, We serve with passion</p>
+        <p><a href="#">OUR MENU</a></p>
+      </div>
+
+  </section>
+
+  <!----CITIES ----->
+  <section class="cities">
+    <h1>Cities We Are Located </h1>
+    <div class="row">
+      <div class="cities-col">
+        <img src="resources/img/matthew-hamilton-fIywSGHYLYM-unsplash.jpg" alt="Lagos">
+        <div class="layer">
+          <h1>LAGOS</h1>
+        </div>
+      </div>
+      <div class="cities-col">
+        <img src="resources/img/jonas-brief-pf1qmagqH_0-unsplash.jpg" alt="San-Fransisco">
+        <div class="layer">
+          <h1>San-Fransisco</h1>
+        </div>
+      </div>
+      <div class="cities-col">
+        <img src="resources/img/elton-luz-5Ni45wTvqxw-unsplash.jpg" alt="DUBAI">
+        <div class="layer">
+          <h1>DUBAI</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <!----javascript for toggle menu & font awesome------>
+  <script>
+    var navlink = document.getElementById("nav-links");
+
+    function ShowMenu() {
+      navlink.style.width = "12.5rem"
+    }
+
+    function HideMenu() {
+      navlink.style.width = "0"
+    }
+  </script>
+
+  <script src="https://use.fontawesome.com/382cb3eb83.js"></script>
+
+  </body>
+</html>
